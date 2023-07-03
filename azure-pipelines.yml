@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'devopsAgent'
+pool: 'devopsAgent'
+  
 
 variables:
   solution: '**/*.sln'
