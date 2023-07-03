@@ -13,6 +13,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//Add new line
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
